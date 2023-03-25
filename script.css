@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    font-style: bold;
+    margin-bottom: auto;
+}
+
+p {
+    height: 60%;
+    text-align: center;
+    margin: 2px;
+}
+
+#content {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn.discordapp.com/attachments/795426205507125338/1089253737391992942/image.png");
+    min-height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    /*Text Settings*/
+    color: whitesmoke;
+    font-family: 'Arsenal', sans-serif;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.num1,.num2,.num3 {
+    border-radius: 10px;
+    margin-left: 2%;
+    width: 300px;
+    height: 320px;
+    background: radial-gradient(circle at top left, transparent 340px, rgba(255, 255, 255, 0.06)), radial-gradient(circle at bottom right, transparent 340px, rgba(255,255,255,.06));
+    margin: 15px;
+    padding: 5px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#result1,#result2,#result3 {
+    margin: 5px;
+    font-style: bold;
+}
+
+#extra {
+    margin: 30px;
+}
